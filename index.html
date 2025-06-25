@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dattaraj Naik Portfolio</title>
+  <link rel="stylesheet" href="landing.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Dattaraj Naik</div>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#service">Service</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#about">About Me</a></li>
+      </ul>
+      <a href="#contact" class="contact-btn">Contact Me</a>
+    </nav>
+  </header>
+
+  <section id="home" class="card hero-card">
+    <div class="hero">
+      <div class="text">
+        <h3>Hi I am <span class="highlight">Dattaraj</span></h3>
+        <h1>Your Business Influencer</h1>
+        <p>Creating bold & modern interface design with UX knowledge for all companies.</p>
+        <a href="#" class="btn">Hire Me</a>
+        <div class="stats">
+          <div><strong>50M+</strong><br>Youtube Views</div>
+          <div><strong>3M+</strong><br>Subscribers</div>
+          <div><strong>7M+</strong><br>Followers</div>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="profile.webp" alt="Dattaraj Naik Profile Photo" />
+      </div>
+    </div>
+  </section>
+
+  <section id="service" class="card">
+    <h2>Services</h2>
+    <div class="card-content service-boxes">
+      <div class="card-inner">
+        <h3>Brand Strategy</h3>
+        <p>Helping businesses define their identity and grow their market presence through targeted branding.</p>
+      </div>
+      <div class="card-inner">
+        <h3>Content Creation</h3>
+        <p>Creating video and visual content for YouTube, Instagram, and other platforms to boost engagement.</p>
+      </div>
+      <div class="card-inner">
+        <h3>UX/UI Design</h3>
+        <p>Designing clean and effective user experiences for web and mobile platforms.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="works" class="card">
+    <h2>My Works</h2>
+    <div class="card-content works-gallery">
+      <div class="card-inner">
+        <img src="work1.jpeg" alt="Project 1">
+        <p>Corporate Website Design</p>
+      </div>
+      <div class="card-inner">
+        <img src="work2.jpeg" alt="Project 2">
+        <p>App UI for Finance Startup</p>
+      </div>
+      <div class="card-inner">
+        <img src="work3.jpeg" alt="Project 3">
+        <p>YouTube Series Branding</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="card">
+    <h2>About Me</h2>
+    <div class="card-content about-content">
+      <img src="sample.jpeg" alt="Portfolio Sample Work" />
+      <div>
+        <p><strong>Biography:</strong><br>Work with leading international brands and businesses worldwide from East Anglia, United Kingdom.</p>
+        <p><strong>Contact:</strong><br>House no 84 Borim Ponda Goa</p>
+        <p><strong>Specialist:</strong><br>Campaign Planner, Brand Creator</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Dattaraj Naik | All rights reserved.
+  </footer>
+
+  <button id="scrollTopBtn" title="Go to top">&#8679;</button>
+
+  <script>
+    const btn = document.getElementById("scrollTopBtn");
+    window.onscroll = function () {
+      btn.style.display = window.scrollY > 300 ? "block" : "none";
+    };
+    btn.onclick = function () {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+  </script>
+</body>
+</html>
